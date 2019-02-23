@@ -1,0 +1,298 @@
+<html>
+<head>
+
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.5.4/js/dataTables.buttons.min.js"></script>
+<script src="https://cdn.datatables.net/select/1.2.7/js/dataTables.select.min.js"></script>
+<script src="dataTables.editor.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.5.4/css/buttons.dataTables.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/select/1.2.7/css/select.dataTables.min.css">
+<link rel="stylesheet" href="editor.dataTables.min.css">
+<link rel="stylesheet" href="task1.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="https://cdn.datatables.net/colreorder/1.5.1/js/dataTables.colReorder.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="header">
+
+	<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>                        
+		  </button>
+		  
+		  <a class="navbar-brand" href="#">HCL Technology</a>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+		  <ul class="nav navbar-nav">
+			<li class="active"><a href="#">Home</a></li>
+			<li class="dropdown">
+			  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Our services <span class="caret"></span></a>
+			  <ul class="dropdown-menu">
+				<li><a href="#">Tech services</a></li>
+				<li><a href="#">Engg services</a></li>
+				<li><a href="#">Support services</a></li>
+			  </ul>
+			</li>
+			<li><a href="#">Location</a></li>
+			<li><a href="#">Contact</a></li>
+		  </ul>
+		  <ul class="nav navbar-nav navbar-right">
+			<li><a href="#"><span class="glyphicon glyphicon-user"></span> Admin Sign Up</a></li>
+			<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Admin Login</a></li>
+		  </ul>
+		</div>
+	  </div>
+</nav>
+
+</div>
+
+
+
+<div class="content1">
+
+<div class="container">
+          
+   
+    
+	<div class="col-sm-12" style="background-color:#CAE7DF;">
+	
+	<table id="example" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Extn.</th>
+                <th>Start date</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+		
+		
+		
+       
+    </table>
+
+	
+    
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div class="content2" >
+
+<div class="container">
+<div class="row">
+<div class="col-lg-3" style="background-color:white;height:170px;">
+<h3>Productive</h3>
+<p>Datatable has more than 100 services with great end-to-end tools to make you successful.</p>
+<a href="" class="arrowLink" >Learn more</a>
+
+</div>
+
+<div class="col-lg-3" style="background-color:white;height:170px;">
+<h3>Hybrid</h3>
+<p>Develop and deploy where you want, with the only consistent hybrid cloud on the market.</p>
+<a href="" class="arrowLink" >Learn more</a>
+</div>
+
+<div class="col-lg-3" style="background-color:white;height:170px;">
+<h3>Intelligent</h3>
+<p>Create intelligent apps using powerful data and AI services with great end-to-end tools to make you successful.</p>
+<a href="" class="arrowLink" >Learn more</a>
+</div>
+
+<div class="col-lg-3" style="background-color:white;height:170px;">
+<h3>Trusted</h3>
+<p>Join startups, governments and 95% of Fortune 500 businesses who run on the Microsoft Cloud today.</p>
+<a href="" class="arrowLink" >Learn more</a>
+</div>
+
+
+</div>
+
+</div>
+</div>
+
+ <div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <h2 style="text-align:center">Login with Social Media or Manually</h2>
+      <div class="vl">
+        <span class="vl-innertext">or</span>
+      </div>
+
+      <div class="col">
+        <a href="#" class="fb btn">
+          <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+         </a>
+        <a href="#" class="twitter btn">
+          <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+        </a>
+        <a href="#" class="google btn"><i class="fa fa-google fa-fw">
+          </i> Login with Google+
+        </a>
+      </div>
+
+      <div class="col">
+        <div class="hide-md-lg">
+          <p>Or sign in manually:</p>
+        </div>
+
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="submit" value="Login">
+      </div>
+      
+    </div>
+  </form>
+</div>
+
+<div class="bottom-container">
+  <div class="row">
+    <div class="col">
+      <a href="#" style="color:white" class="btn">Sign up</a>
+    </div>
+    <div class="col">
+      <a href="#" style="color:white" class="btn">Forgot password?</a>
+    </div>
+  </div>
+</div>
+
+
+
+<script >
+var editor; // use a global for the submit and return data rendering in the examples
+ 
+$(document).ready(function() {
+    // Object that will contain the local state
+    var todo = {};
+ 
+    // Create or update the todo localStorage entry
+    if ( localStorage.getItem('todo') ) {
+        todo = JSON.parse( localStorage.getItem('todo') );
+    }
+ 
+    // Set up the editor
+    editor = new $.fn.dataTable.Editor( {
+        table: "#example",
+        fields: [
+            {
+                label: "Name:",
+                name: "Name"
+            }, {
+                label: "Position:",
+                name: "Position"
+            }, {
+                label: "Office:",
+                name: "Office"
+            }, {
+                label: "Extn:",
+                name: "Extn"
+            }, {
+                label: "Start date:",
+                name: "Start date",
+				type: "datetime"
+            }, {
+                label: "Salary:",
+                name: "Salary"
+            }
+        ],
+        ajax: function ( method, url, d, successCallback, errorCallback ) {
+            var output = { data: [] };
+ 
+            if ( d.action === 'create' ) {
+                // Create new row(s), using the current time and loop index as
+                // the row id
+                var dateKey = +new Date();
+ 
+                $.each( d.data, function (key, value) {
+                    var id = dateKey+''+key;
+ 
+                    value.DT_RowId = id;
+                    todo[ id ] = value;
+                    output.data.push( value );
+                } );
+            }
+            else if ( d.action === 'edit' ) {
+                // Update each edited item with the data submitted
+                $.each( d.data, function (id, value) {
+                    value.DT_RowId = id;
+                    $.extend( todo[ id ], value );
+                    output.data.push( todo[ id ] );
+                } );
+            }
+            else if ( d.action === 'remove' ) {
+                // Remove items from the object
+                $.each( d.data, function (id) {
+                    delete todo[ id ];
+                } );
+            }
+ 
+            // Store the latest `todo` object for next reload
+            localStorage.setItem( 'todo', JSON.stringify(todo) );
+ 
+            // Show Editor what has changed
+            successCallback( output );
+        }
+    } );
+ 
+    // Initialise the DataTable
+    $('#example').DataTable( {
+        dom: "Bfrtip",
+        data: $.map( todo, function (value, key) {
+            return value;
+        } ),
+		colReorder: true,
+		columns: [
+			{ data: "Name" },
+            { data: "Position" },
+            { data: "Office" },
+            { data: "Extn" },
+            { data: "Start date" },
+            { data: "Salary" }
+        ],
+        select: true,
+        buttons: [
+            { extend: "create", editor: editor },
+            { extend: "edit",   editor: editor },
+            { extend: "remove", editor: editor }
+        ]
+    } );
+	
+	
+} );
+
+
+
+
+
+</script>
+	
+<script src="login.js">
+
+</script>	
+	
+</body>
+</html>
+
